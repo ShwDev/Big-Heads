@@ -1,0 +1,17 @@
+{
+	"required": true,
+	"package": "com.shaw.bigheads.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"ExampleClientMixin",
+		"HumanoidModelMixin",
+		"AvatarRenderStateMixin",
+		"AvatarRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
